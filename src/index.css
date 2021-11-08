@@ -14,10 +14,10 @@ body {
 body {
   background: linear-gradient(
     90deg,
-    rgba(173, 187, 60, 1) 0%,
-    rgba(139, 209, 93, 1) 0%,
-    rgba(69, 148, 155, 1) 100%,
-    rgba(51, 112, 103, 1) 100%
+    rgb(205, 218, 106) 0%,
+    rgb(148, 189, 122) 0%,
+    rgb(106, 169, 175) 100%,
+    rgb(102, 148, 141) 100%
   );
   display: flex;
   justify-content: center;
@@ -26,36 +26,41 @@ body {
 }
 
 .app {
-  background-color: #2b2a80;
-  width: 550px;
   min-height: 200px;
   height: min-content;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-evenly;
 }
 
 .score-section {
   display: grid;
-  font-size: 24px;
-  align-items: center;
+  font-size: 39px;
+  width: 800px;
+  margin-bottom: 5px;
+  background-color: #2b2a80;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+  justify-content: center;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
 .question-section {
   width: 100%;
-  position: relative;
 }
 
 .question-count {
+  width: 1300px;
   margin-bottom: 20px;
   background-color: #2b2a80;
   border-radius: 15px;
   padding: 20px;
   box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
   text-align: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .question-count span {
@@ -82,28 +87,32 @@ body {
 
 /* ANSWERS/RIGHT SECTION */
 .answer-section {
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
 }
+
 .btn1 {
-  width: 100%;
-  font-size: 18px;
+  width: 800px;
+  height: 270px;
+  font-size: 22px;
   color: #ffffff;
-  background-color: #2b2a80;
+  background-color: #8a8899d8;
   border-radius: 15px;
   display: flex;
-  margin: 2px;
+  margin: 10px;
   padding: 8px;
-  justify-content: flex-start;
-  align-items: center;
-  border: 3px solid #718da893;
+  border: 1px solid #718da893;
   cursor: pointer;
+  justify-content: center;
+  position: relative;
+  transition: 0.5s;
 }
 
 button:hover {
-  background-color: #5f70ac;
+  background-color: #20263d;
+  opacity: 0.8;
 }
 
 button:focus {
@@ -111,7 +120,13 @@ button:focus {
 }
 
 button svg {
-  margin-right: 5px;
+  margin-right: 15px;
 }
 
-
+img {
+  width: 281px;
+  height: 218px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50px;
+}

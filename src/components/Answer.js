@@ -8,9 +8,10 @@ const Answers = (props) => {
           <button
             className="btn1"
             onClick={() => props.onAdd(answerOption.isCorrect)}
-            key={Math.random()}
+            key={answerOption.id}
           >
             {answerOption.answerText}
+            <img className="img1" src={answerOption.imgSrc} alt="food" />
           </button>
         )
       )}

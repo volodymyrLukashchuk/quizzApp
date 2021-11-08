@@ -1,6 +1,9 @@
 import React from "react";
+import { useHistory } from "react-router";
 
 const Start = (props) => {
+  const history = useHistory();
+
   return (
     <div className="start">
       <h3>
@@ -9,7 +12,7 @@ const Start = (props) => {
       </h3>
       <button
         className="waves-effect waves-light btn pulse"
-        onClick={() => props.setShow(!props.show)}
+        onClick={() => history.push("/quiz")}
       >
         Start Quiz
       </button>
