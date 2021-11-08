@@ -8,7 +8,7 @@ const Results = (props) => {
     <div className="score-section">
       {props.currentResult.message}
       <button
-        onClick={() => history.push("/welcome")}
+        onClick={() => history.push("/")}
         className="btn2 waves-effect waves-light btn pulse"
       >
         Start Over

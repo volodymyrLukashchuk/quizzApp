@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router";
 
-const Start = (props) => {
+const Start = () => {
   const history = useHistory();
 
   return (
