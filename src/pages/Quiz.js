@@ -3,40 +3,46 @@ import Results from "../components/Results";
 import Questions from "../components/Questions";
 import Answers from "../components/Answer";
 
-import questions from "../db.json";
-import scores from "../db.json";
-
 const Quiz = () => {
-  async function getQuestions() {
-    return questions;
-  }
-
-  async function getScore() {
-    return scores;
-  }
-
   const [answer, setAnswers] = useState([]);
   const [isInitialized, setIsInitialized] = useState(false);
 
   useEffect(() => {
-    const fetchQuestions = async () => {
-      const questionsFromServer = await getQuestions();
-      setAnswers(questionsFromServer.questions);
+    const getScores = async () => {
+      const scoreFromServer = await fetchScore();
+      setFinalScore(scoreFromServer);
     };
 
-    if (!isInitialized) {
-      fetchQuestions().then(() => setIsInitialized(true));
-    }
-  }, [isInitialized, setAnswers, setIsInitialized]);
+    getScores();
+  }, []);
+
+  const fetchScore = async () => {
+    const res = await fetch(
+      "https://my-json-server.typicode.com/volodymyrLukashchuk/quizzApp/scores"
+    );
+    const data = await res.json();
+    return data;
+  };
 
   useEffect(() => {
-    const fetchScore = async () => {
-      const scoreFromServer = await getScore();
-      setFinalScore(scoreFromServer.scores);
+    const getTasks = async () => {
+      const tasksFromServer = await fetchQuestions();
+      setAnswers(tasksFromServer);
     };
+    if (!isInitialized) {
+      getTasks().then(() => setIsInitialized(true));
+    }
 
-    fetchScore();
-  }, []);
+    getTasks();
+  }, [isInitialized, setAnswers, setIsInitialized]);
+
+  const fetchQuestions = async () => {
+    const res = await fetch(
+      "https://my-json-server.typicode.com/volodymyrLukashchuk/quizzApp/questions"
+    );
+    const data = await res.json();
+    return data;
+  };
 
   const [finalScore, setFinalScore] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
