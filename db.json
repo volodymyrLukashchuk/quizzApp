@@ -1,0 +1,161 @@
+{
+  "questions": [
+    {
+      "questionText": "Pick some food",
+      "answerOptions": [
+        {
+          "answerText": "Caesar Salad",
+          "isCorrect": false,
+          "id": "1",
+          "imgSrc": "https://www.thespruceeats.com/thmb/VNEd2NPOW3juPkCmuE4J98TT9Cg=/2000x2000/smart/filters:no_upscale()/classic-caesar-salad-recipe-996054-Hero_01-33c94cc8b8e841ee8f2a815816a0af95.jpg"
+        },
+        {
+          "answerText": "Burger",
+          "isCorrect": true,
+          "id": "2",
+          "imgSrc": "https://assets3.thrillist.com/v1/image/2988005/1200x630/flatten;crop_down;jpeg_quality=70"
+        },
+        {
+          "answerText": "Chicken Sandwich",
+          "isCorrect": true,
+          "id": "3",
+          "imgSrc": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2FPhoto%2FRecipes%2F2021-08-air-fryer-chicken-sandwich%2F2021-07-28_ATK-8698"
+        },
+        {
+          "answerText": "Nuggets",
+          "isCorrect": false,
+          "id": "4",
+          "imgSrc": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/9/12/1/FN_Picky-Eaters-Chicken-Nuggets_s4x3.jpg.rend.hgtvcom.616.462.suffix/1383770571120.jpeg"
+        }
+      ]
+    },
+    {
+      "questionText": "Pick a healthy choice",
+      "answerOptions": [
+        {
+          "answerText": "Fruit",
+          "isCorrect": true,
+          "id": "1",
+          "imgSrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg"
+        },
+        {
+          "answerText": "Pasta Salad",
+          "isCorrect": false,
+          "id": "2",
+          "imgSrc": "https://i.ytimg.com/vi/IsWkPIz45Sk/maxresdefault.jpg"
+        },
+        {
+          "answerText": "Salad",
+          "isCorrect": true,
+          "id": "3",
+          "imgSrc": "https://www.wholesomeyum.com/wp-content/uploads/2020/03/wholesomeyum-chef-salad-recipe-4.jpg"
+        },
+        {
+          "answerText": "Parfait",
+          "isCorrect": false,
+          "id": "4",
+          "imgSrc": "https://dinnerthendessert.com/wp-content/uploads/2018/12/Parfait-2.jpg"
+        }
+      ]
+    },
+    {
+      "questionText": "Pick a movie snack",
+      "answerOptions": [
+        {
+          "answerText": "M&M’s",
+          "isCorrect": false,
+          "id": "1",
+          "imgSrc": "https://i2.wp.com/www.dailycal.org/assets/uploads/2021/02/mm_Anders-Lager%C3%A5s_cc-900x580.jpg"
+        },
+        {
+          "answerText": "Caramel Popcorn",
+          "isCorrect": true,
+          "id": "2",
+          "imgSrc": "https://www.cook2eatwell.com/wp-content/uploads/2020/09/RC-Caramel-Popcorn-Image.jpg"
+        },
+        {
+          "answerText": "Ice Cream",
+          "isCorrect": true,
+          "id": "3",
+          "imgSrc": "https://www.julieseatsandtreats.com/wp-content/uploads/2020/06/Rainbow-Ice-Cream-14-of-16.jpg"
+        },
+        {
+          "answerText": "Traditional Popcorn",
+          "isCorrect": false,
+          "id": "4",
+          "imgSrc": "https://images.creativemarket.com/0.1.0/ps/1976753/1360/906/m1/fpnw/wm1/cmede0nnhyxoczkvhonqfdhaiy4bs0hbzsbughkkuhuwtrhqtseuevlyasgvnxkz-.jpg?1480694852&s=c450aef56a34f8fc8e8194cde0181bcb"
+        }
+      ]
+    },
+    {
+      "questionText": "Pick a fast-food spot",
+      "answerOptions": [
+        {
+          "answerText": "Dunkin’ Donuts",
+          "isCorrect": true,
+          "id": "1",
+          "imgSrc": "https://www.gannett-cdn.com/presto/2018/09/25/USAT/791c82da-5ed1-4691-8dbb-ebf2e6782b60-AP_Dunkin__Donuts_Name_Change.jpg"
+        },
+        {
+          "answerText": "Wendy’s",
+          "isCorrect": false,
+          "id": "2",
+          "imgSrc": "https://images.saymedia-content.com/.image/t_share/MTc0MjMxNzkwNTQ1MTUxNDg0/wendys-restaurant-poutine-review.jpg"
+        },
+        {
+          "answerText": "Burger King",
+          "isCorrect": true,
+          "id": "3",
+          "imgSrc": "https://static.dezeen.com/uploads/2021/01/burger-king-logo-progression_dezeen_2364_col_0.jpg"
+        },
+        {
+          "answerText": "McDonald’s",
+          "isCorrect": false,
+          "id": "4",
+          "imgSrc": "https://pbs.twimg.com/profile_images/1445766736213463055/ppkX0QJB_400x400.png"
+        }
+      ]
+    },
+    {
+      "questionText": "Pick some more food",
+      "answerOptions": [
+        {
+          "answerText": "Pasta",
+          "isCorrect": true,
+          "id": "1",
+          "imgSrc": "https://www.seriouseats.com/thmb/GSqpVkulyUZu-D6sPijmbFV_f4s=/1500x1125/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2020__03__20200224-carretteira-pasta-vicky-wasik-21-ffe68515b25f4b348cbde845a59d6a62.jpg"
+        },
+        {
+          "answerText": "Chicken",
+          "isCorrect": false,
+          "id": "2",
+          "imgSrc": "https://www.simplyrecipes.com/thmb/onEilrEKJpIT6Gad-olLTHnlm2s=/5156x2900/smart/filters:no_upscale()/Simply-Recipes-Grilled-Chicken-LEAD-SEO-Horizontal-1b86ef1e115444ba8b6fb216f2810c7c.jpg"
+        },
+        {
+          "answerText": "Sandwich",
+          "isCorrect": true,
+          "id": "3",
+          "imgSrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190322-ham-sandwich-horizontal-1553721016.png"
+        },
+        {
+          "answerText": "Pizza",
+          "isCorrect": false,
+          "id": "4",
+          "imgSrc": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-homemade-pizza-horizontal-1542312378.png?crop=1.00xw:1.00xh;0,0&resize=480:*"
+        }
+      ]
+    }
+  ],
+
+  "scores": [
+    { "score": 0, "message": "Please try again!" },
+    {
+      "score": 1,
+      "message": "Outgoing - You’re a perfect mix of funny, chill, and intelligence!"
+    },
+    { "score": 2, "message": "Funny - You have a wicked sense of humour!" },
+    { "score": 3, "message": "Shy - You’re shy and reserved!" },
+    { "score": 4, "message": "Stern - You’re a very serious person!" },
+    { "score": 5, "message": "Stern - You’re a very serious person!" }
+  ]
+}
